@@ -5,12 +5,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
     <body>
-        <form>
+        <form method="post" action="perfilUsuario.html">
             <h3>Faça Login</h3>
+            <div>
             <input id="email" type="text" name="email" placeholder="E-mail" />
+            </div>
+            
+            <div>
             <input id="senha" type="password" name="senha" placeholder="Senha" />
+            </div>
+            
+            <div>
             <input type="submit" name="acao" value="Entrar" />
-            <p id="p1">Não tem uma conta? <a href="cadastro.html" target="_blank">Cadastre-se</a></p>
+            </div>
+                <br>
+            
+                <div>
+                <a href="recSenha.html"><button type="button">Recuperar Senha</button></a>
+            </div>
+            
+            <div>
+                <p id="p1">Não tem uma conta? <a href="cadastro.html" target="_blank">Cadastre-se</a></p>
+            </div>
+        
         </form>
         <script src="script.js"></script>
     </body>
