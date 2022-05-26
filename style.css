@@ -77,7 +77,7 @@ form input[type=text]:focus{
 }
 
 form input[type=password]:focus{
-    outline: 0;
+    outline: 2;
 }
 
 </style>
